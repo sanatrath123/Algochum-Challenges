@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scroll-container {
+    height: 96vh;
+    background-color: #8b5cf6; /* Tailwind CSS bg-violet-600 */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 1.25rem; /* Tailwind CSS gap-5 */
+    scroll-snap-type: x mandatory;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
