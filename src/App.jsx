@@ -125,15 +125,19 @@
 
 // import MainPage from "./Keypress-Handle/MainPage"
 
-// import MainCounter from "./Counter-React-Challenge/MainCounter"
-import MainPage from './Demo-Acordian/MainPageAcc.jsx'
-import Page from './Toast-Notification/Page.jsx'
+ //import MainCounter from "./Counter-React-Challenge/MainCounter"
+// import MainPage from './Demo-Acordian/MainPageAcc.jsx'
+// import Page from './Toast-Notification/Page.jsx'
+//import Main from "./LocalStorage/Main"
+// import Otp from "./Otp-Input/Otp"
+//import Circle from "./CircleMove/Circle"
+import Banner from "./InfinityBanner/Banner"
 const App = () => {
   
   return (
     <div className='w-full h-screen
      flex justify-center items-center'>
-      <MainPage/>
+      <Banner/>
     </div>
   )
 }
@@ -152,6 +156,7 @@ const App = () => {
 //     </div>
 //   )
 // }
+
 
 export default App
 

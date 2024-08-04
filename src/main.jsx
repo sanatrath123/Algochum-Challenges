@@ -23,9 +23,12 @@ import SelectList from './SelectList.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
-  <App/>
+<App/>
   </React.StrictMode>
 )
+
+
+
 
 //i change the root for a diffierent project so if you want to use main.jsx again go and set script src directory in index.html 
 

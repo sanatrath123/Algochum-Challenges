@@ -20,13 +20,8 @@ useEffect(()=>{
       if(scrollDiv.scrollLeft >= scrollDiv.scrollWidth/2){
         scrollDiv.scrollLeft = 0
       }
-
-      
-
     }
       animationFrameId.current = requestAnimationFrame(scroll);
-
-      
     }
      if (isScroling) {
             animationFrameId.current = requestAnimationFrame(scroll);
@@ -44,11 +39,11 @@ useEffect(()=>{
 
 
 const handleEnter=()=>{
-  setScroling(true)
+  setScroling(false)
 }
 
 const handleLeave= ()=>{
-  setScroling(false)
+  setScroling(true)
 }
 
     return (
