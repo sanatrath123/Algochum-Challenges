@@ -131,13 +131,16 @@
 //import Main from "./LocalStorage/Main"
 // import Otp from "./Otp-Input/Otp"
 //import Circle from "./CircleMove/Circle"
-import Banner from "./InfinityBanner/Banner"
+//import Banner from "./InfinityBanner/Banner"
+import FeedbackStar from "./FeedbackStar/FeedbackStar"
+//import File from "./FolderStructre/File"
+
 const App = () => {
   
   return (
     <div className='w-full h-screen
      flex justify-center items-center'>
-      <Banner/>
+      <FeedbackStar/>
     </div>
   )
 }
